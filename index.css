@@ -1,0 +1,30 @@
+#small-gallery {
+
+}
+
+#large-gallery {
+
+}
+
+.small-image {
+    border-width: 2px;
+    padding: 0 .5%;
+    margin: 0 0.2%;
+    border-style: dashed;
+    border-color: #1e1e1e;
+    max-width: 150px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.large-image {
+    max-width: 600px;
+    width: 100%;
+}
+
+#description {
+    position: absolute;
+    background-color: #eee;
+    opacity: 0%;
+}
